@@ -57,7 +57,6 @@ namespace Assignment4
 
         public static void ShowMenu()
         {
-            //Console.WriteLine("khali hai");
             foreach (var item in menu)
             {
                 Console.WriteLine($"Item's ID: {item.ID}, Item Name: {item.Name}, Item Price: {item.Price}, Item Category: {item.Category}");
@@ -67,7 +66,6 @@ namespace Assignment4
 
         public static void PlaceOrder()
         {
-            //int orderId = 1;
 
             while (true)
             {
