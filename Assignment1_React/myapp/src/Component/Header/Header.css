@@ -1,0 +1,63 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 5rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar-left h4 {
+    margin-top: 0.3rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-size: 1.7rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(163, 220, 239, 0.9);
+    color: black;
+}
+
+.navbar-middle, .navbar-right {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.navbar-right h4, .navbar-middle h4 {
+    border-radius: 5rem;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-top: 0.3rem;
+}
+
+#lnk {
+    text-decoration: none;
+    color: white;
+}
+
+#lnk:hover {
+    color: black;
+}
+
+.navbar-right h4:hover {
+    background-color: rgba(163, 220, 239, 0.9);
+    color: black;
+}
+
+.navbar-middle h4:hover {
+    background-color: rgba(163, 220, 239, 0.9);
+    color: black;
+}
